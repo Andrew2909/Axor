@@ -607,6 +607,28 @@
                                             <div  class="aft_bef_zoom_card span_front_hover1"></div>
                                               <div  class="aft_bef_zoom_card span_front_hover2"></div>
                                               <div class="sale_card_tile">-30%</div>
+                                              <h1>Countdown Clock</h1>
+<div id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+<!-- 
+https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/
+-->
                                         </div>
                                     </div>
 
@@ -676,12 +698,12 @@
                                 <p class="code"><span>Код:</span> 00-00008995</p>
                             </div>
 
-                            <div class="price_block">
+                            <div class="price_block scroll_price_block">
                                 <div class="price_start">
                                     <span>от</span> 990 ₽
                                 </div>
 
-                                <div class="price_end">
+                                <div class="price_end"  id="wrap">
                                     <div class="left">
                                         <p class="price">38 290 ₽</p>
                                         <div class="bonus">
@@ -708,7 +730,7 @@
           <p>Вы можете выбрать желаемый товар из состава <br>  коллекции и добавить их в комплекту</p>
           <a href="#add_tovar"><button> <span>+</span> Добавить товары</button></a>
       </div>
-                                        <div class="tile_product " >
+                                        <div class="tile_product ">
                                             <div class="hidden_name">   Фронтальный экран .....</div>
                                             <div class="inner_info front_hover1">
                                                 <div class="img">
@@ -1692,11 +1714,8 @@
     <script src="js/main.js"></script>
 
     <script>
+
         $('select').styler();
-
-
-
-
 
         <!-- Initialize Swiper -->
         var galleryThumbs = new Swiper('.gallery-thumbs', {

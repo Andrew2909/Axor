@@ -128,7 +128,7 @@ $(function() {
     });
 
 
-    $('.tile_product').on('click', function () {
+    $('.tile_product .name').on('click', function () {
         $('.tile_product_popup').show();
         $('.overlay').show();
         return false;
@@ -698,4 +698,14 @@ $('.swiper-zoom-container > img').on('click', function () {
 return false;
 });
 
+var wrap = $("#wrap");
 
+wrap.on("scroll", function(e) {
+    
+  if (this.scrollTop > 150) {
+    wrap.addClass("fix-search");
+  } else {
+    wrap.removeClass("fix-search");
+  }
+  
+});

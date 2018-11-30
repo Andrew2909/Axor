@@ -1295,7 +1295,7 @@
         // });
 
         $(window).scroll(function() {
-            var position = $('.comparsion_wr').offset().top + parseInt($('.comparsion_wr').css('padding-top'));
+            var position = $('.top_cadr_tiled').offset().top + parseInt($('.top_cadr_tile').css('padding-top'));
             var currentPosition = $(this).scrollTop();
             if( currentPosition > position){
                 $('.bottom_comparsion').css({'padding-top': $('.top_comparsion').outerHeight()});
