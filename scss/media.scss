@@ -636,6 +636,7 @@ header {
 }
 
 @media screen and(max-width: 991px){
+
   header .bottom_head .search{
     max-width: 340px;
     .relative_search .search_block_abs{
@@ -1525,7 +1526,13 @@ height: auto;
 }
 
 @media screen and(max-width: 700px){
-
+  .floating{
+    width: 100%!important;
+        height: 70px;
+        .price_end{
+          margin-top: 0!important;
+        }
+  }
 .fixed_composition_block{
       display: flex!important;
     flex-direction: column-reverse;
