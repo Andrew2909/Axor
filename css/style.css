@@ -3186,6 +3186,21 @@ footer {
   padding-top: 5px;
   font-size: 16px; }
 
+.floating {
+  background: #352a2a;
+  color: #fff;
+  font: normal normal 14px Tahoma;
+  padding: 10px;
+  right: 0;
+  width: 50%;
+  /*указываем ширину*/ }
+
+.fixed {
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
+  /*устанавливаем блок поверх всех элементов на странице*/ }
+
 .main_catalogue .catalog_title {
   display: -webkit-box;
   display: -ms-flexbox;
