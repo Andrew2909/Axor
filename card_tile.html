@@ -690,6 +690,7 @@
                         <div class="card_info">
                             <div class="card_top">
                                 <p class="name">Коллекция плитки Cersanit Eilat</p>
+                                <img src="img/icons/libra.png" alt="libra" title="Добавить к сравнению">
                                 <p class="code"><span>Код:</span> 00-00008995</p>
                             </div>
 
@@ -727,6 +728,8 @@
                                       </div>
                                       <div class="tile_product ">
                                         <div class="hidden_name">   Фронтальный экран .....</div>
+                                        <input type="checkbox" id="checkbox1" />
+                                        <label for="checkbox1"></label>   
                                         <div class="inner_info front_hover1">
                                             <div class="img">
                                                 <img src="img/tile_product.PNG" alt="tile_product">
@@ -760,6 +763,8 @@
                                 </div><!-- tile_product -->
                                 <div class="tile_product front_hover2" >
                                     <div class="hidden_name">    Фронтальный экран 22 .....</div>
+                                    <input type="checkbox" id="checkbox2" />
+                                    <label for="checkbox2"></label>
                                     <div class="inner_info">
                                         <div class="img">
                                             <img src="img/tile_product.PNG" alt="tile_product">
@@ -793,6 +798,8 @@
                             </div><!-- tile_product -->
                             <div class="tile_product" >
                                 <div class="hidden_name"> Плитка настенная Eilat Brown 3035-0144 33,3х33,3</div>
+                                <input type="checkbox" id="checkbox3" />
+                                <label for="checkbox3"></label>
                                 <div class="inner_info">
                                     <div class="img">
                                         <img src="img/tile_product.PNG" alt="tile_product">
@@ -826,6 +833,8 @@
                             </div><!-- tile_product -->
                             <div class="tile_product" >
                                 <div class="hidden_name"> Плитка настенная Eilat Brown 3035-0144 33,3х33,3</div>
+                                <input type="checkbox" id="checkbox4" />
+                                <label for="checkbox4"></label>
                                 <div class="inner_info">
                                     <div class="img">
                                         <img src="img/tile_product.PNG" alt="tile_product">
@@ -859,6 +868,8 @@
                             </div><!-- tile_product -->
                             <div class="tile_product" >
                                 <div class="hidden_name"> Плитка настенная Eilat Brown 3035-0144 33,3х33,3</div>
+                                <input type="checkbox" id="checkbox5" />
+                                <label for="checkbox5"></label>
                                 <div class="inner_info">
                                     <div class="img">
                                         <img src="img/tile_product.PNG" alt="tile_product">
@@ -1712,6 +1723,16 @@
 <script src="js/main.js"></script>
 
 <script>
+     $(document).ready(function(){
+            $(".span_front_hover1").on('mouseover', function(){
+                $('.front_hover1').css("background-color", "#ebebeb");
+                $(this).css("background-color", "#ebebeb");
+            });
+            $(".span_front_hover1").on('mouseout', function(){
+                $('.front_hover1').css("background-color", "#fff");
+                $(this).css("background-color", "red");
+            });
+        });
 
     $('select').styler();
 

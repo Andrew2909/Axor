@@ -4675,12 +4675,19 @@ footer {
       padding: 30px 0;
       border-bottom: solid 1px #ebebeb; }
       .card_page .card_wr .card_info .tab_content .tile_product {
-        padding-top: 30px; }
+        padding-top: 30px; 
+        width: 100%;
+        display: flex;}
+        .card_page .card_wr .card_info .card_top img {
+        cursor: pointer;
+        vertical-align: middle;}
         .card_page .card_wr .card_info .tab_content .tile_product:first-child {
           padding-top: 0; }
         .card_page .card_wr .card_info .tab_content .tile_product .hidden_name {
           display: none; }
         .card_page .card_wr .card_info .tab_content .tile_product .inner_info {
+          width: 100%;
+          padding: 10px;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -4690,6 +4697,26 @@ footer {
           -webkit-box-pack: justify;
           -ms-flex-pack: justify;
           justify-content: space-between; }
+          .card_page .card_wr .card_info .tab_content input[type="checkbox"]{
+   display: none;}
+.card_page .card_wr .card_info .tab_content  input[type="checkbox"] + label{
+    margin: 40px 10px 0 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #afafaf;    
+    text-align: center;    }
+.card_page .card_wr .card_info .tab_content input[type="checkbox"] + label:before{
+    content: '';
+    font-size: 10px;}
+.card_page .card_wr .card_info .tab_content input[type="checkbox"]:checked + label{
+    border: 1px solid red; 
+    background: url('../img/icons/checked.png');  }
+.card_page .card_wr .card_info .tab_content input[type="checkbox"]:checked + label:before{
+    display: block;
+    content: '';
+    background: url('../img/icons/checked.png');}
         .card_page .card_wr .card_info .tab_content .tile_product .img {
           width: 80px;
           height: 80px;
