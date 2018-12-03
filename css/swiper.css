@@ -9,6 +9,8 @@
  *
  * Released on: November 1, 2018
  */
+.viewed-container{
+  padding: 0 30px!important;} 
 .swiper-container {
   margin: 0 auto;
   position: relative;
@@ -62,6 +64,7 @@
   margin: 0 auto;
 }
 .swiper-slide {
+  cursor: pointer;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -206,6 +209,8 @@
   display: none;
 }
 .swiper-pagination {
+   margin-top: 3px;
+  width: 90%;
   position: absolute;
   text-align: center;
   -webkit-transition: 300ms opacity;
@@ -290,7 +295,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #007aff;
+  background: #969696;
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
@@ -616,3 +621,6 @@ button.swiper-pagination-bullet {
   /* Windows 8 IE 10 fix */
   -ms-perspective: 1200px;
 }
+@media screen and (max-width: 600px) {
+  .viewed-container{
+  padding: 0!important;}}

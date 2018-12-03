@@ -1310,45 +1310,14 @@ footer {
             color: #D84137; }
     .city_popup .letters .show_block {
       display: none; }
-.review_popup{
-    padding: 35px 40px;
-    height: 661px;
-    width: 549px;
-    display: none;}
-.review_popup .popup_wr .close{
-  top: 0;
-  right: 0;
-  margin: 0;}
-  .review_popup input{
-    padding: 15px;
-    width: 425px;
-    height: 50px;
-    line-height: 50px;}
-  .review_popup .main_title .big-star{
-    margin-left: 10px;}
-    .popup.review_popup {
-    display: none;
-}
-  .review_popup .main_title, .review_popup .main_title .big-star{
-    font-size: 15px;
-    font-family: Circe-Regular;
-    display: flex;}
-    .review_popup textarea{
-      padding: 15px;
-      width: 424px;
-      height: 80px;
-      border-radius: 2px;}
-    .review_popup button{
-      margin-top: 0px!important;}
-.review_popup .popup_wr .input_block {
-  margin: 25px 0;}
+
 .call_me_popup, .ask_me_popup, .login_popup, .register_popup, .thx_for_order, .adress_popup, .edit_contact_info, .tile_product_popup, .card_modal_slider_img {
   max-width: 575px;
   width: 100%;
   display: none; }
   .call_me_popup .popup_wr, .ask_me_popup .popup_wr, .login_popup .popup_wr, .register_popup .popup_wr, .thx_for_order .popup_wr, .adress_popup .popup_wr, .edit_contact_info .popup_wr, .tile_product_popup .popup_wr, .card_modal_slider_img .popup_wr {
     padding: 45px 50px 50px; }
-  .call_me_popup .input_block, .review_popup, .ask_me_popup .input_block, .login_popup .input_block, .register_popup .input_block, .thx_for_order .input_block, .adress_popup .input_block, .edit_contact_info .input_block, .tile_product_popup .input_block, .card_modal_slider_img .input_block {
+  .call_me_popup .input_block, .ask_me_popup .input_block, .login_popup .input_block, .register_popup .input_block, .thx_for_order .input_block, .adress_popup .input_block, .edit_contact_info .input_block, .tile_product_popup .input_block, .card_modal_slider_img .input_block {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1359,9 +1328,9 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     margin-top: 20px; }
-  .call_me_popup [type="checkbox"], .review_popup [type="checkbox"], .ask_me_popup [type="checkbox"], .login_popup [type="checkbox"], .register_popup [type="checkbox"], .thx_for_order [type="checkbox"], .adress_popup [type="checkbox"], .edit_contact_info [type="checkbox"], .tile_product_popup [type="checkbox"], .card_modal_slider_img [type="checkbox"] {
+  .call_me_popup [type="checkbox"], .ask_me_popup [type="checkbox"], .login_popup [type="checkbox"], .register_popup [type="checkbox"], .thx_for_order [type="checkbox"], .adress_popup [type="checkbox"], .edit_contact_info [type="checkbox"], .tile_product_popup [type="checkbox"], .card_modal_slider_img [type="checkbox"] {
     width: 18px; }
-  .call_me_popup .title, .ask_me_popup .title, .review_popup .title, .login_popup .title, .register_popup .title, .thx_for_order .title, .adress_popup .title, .edit_contact_info .title, .tile_product_popup .title, .card_modal_slider_img .title {
+  .call_me_popup .title, .ask_me_popup .title, .login_popup .title, .register_popup .title, .thx_for_order .title, .adress_popup .title, .edit_contact_info .title, .tile_product_popup .title, .card_modal_slider_img .title {
     font: 24px "Circe-Bold";
     color: #1E1E1E; }
   .call_me_popup label, .ask_me_popup label, .login_popup label, .register_popup label, .thx_for_order label, .adress_popup label, .edit_contact_info label, .tile_product_popup label, .card_modal_slider_img label {
@@ -1385,7 +1354,7 @@ footer {
     height: 120px;
     resize: none;
     padding: 10px; }
-  .call_me_popup button, .ask_me_popup button, .review_popup button, .login_popup button, .register_popup button, .thx_for_order button, .adress_popup button, .edit_contact_info button, .tile_product_popup button, .card_modal_slider_img button {
+  .call_me_popup button, .ask_me_popup button, .login_popup button, .register_popup button, .thx_for_order button, .adress_popup button, .edit_contact_info button, .tile_product_popup button, .card_modal_slider_img button {
     color: #fff;
     font: 17px "Circe-Bold";
     text-align: center;
@@ -1404,9 +1373,9 @@ footer {
     -ms-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; }
-    .call_me_popup button:hover, .ask_me_popup button:hover, .review_popup button:hover, .login_popup button:hover, .register_popup button:hover, .thx_for_order button:hover, .adress_popup button:hover, .edit_contact_info button:hover, .tile_product_popup button:hover, .card_modal_slider_img button:hover {
+    .call_me_popup button:hover, .ask_me_popup button:hover, .login_popup button:hover, .register_popup button:hover, .thx_for_order button:hover, .adress_popup button:hover, .edit_contact_info button:hover, .tile_product_popup button:hover, .card_modal_slider_img button:hover {
       background: #e74c46; }
-  .call_me_popup button:disabled, .ask_me_popup button:disabled, .review_popup button:disabled, .login_popup button:disabled, .register_popup button:disabled, .thx_for_order button:disabled, .adress_popup button:disabled, .edit_contact_info button:disabled, .tile_product_popup button:disabled, .card_modal_slider_img button:disabled {
+  .call_me_popup button:disabled, .ask_me_popup button:disabled, .login_popup button:disabled, .register_popup button:disabled, .thx_for_order button:disabled, .adress_popup button:disabled, .edit_contact_info button:disabled, .tile_product_popup button:disabled, .card_modal_slider_img button:disabled {
     background: #D8D8D8; }
 
 .ask_me_popup .checkbox_wr {
@@ -3188,23 +3157,7 @@ footer {
   right: 242px; }
   .span_front_hover1:hover body {
     background: red; }
-.swiper-slide .swiper-zoom-container .search{
-  bottom: 20px;
-    width: 22px;
-    height: 22px;
-    background: url(../img/icons/search.png);
-    position: absolute;
-    right: 20px;
-    cursor: pointer;}
-  .swiper-slide .search:hover{
-     bottom: 20px;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    right: 20px;
-    cursor: pointer;
-    background: url(../img/icons/search_red.png);
-  }
+
 .sale_card_tile {
   float: right;
   background: none;
@@ -4896,13 +4849,9 @@ footer {
         .card_page .card_wr .card_info .tab_links .active:after {
           display: none; }
       .card_page .card_wr .card_info .tab_content .tile_product {
-        padding-top: 20px; 
+        padding-top: 30px; 
         width: 100%;
         display: flex;}
-        .card_page .card_wr .card_info .tab_content .tile_product-dop{
-          font-size: 17px;
-          margin-left: 30px;
-          margin-top: 10px;}
         .card_page .card_wr .card_info .tab_content .more .tile_product {
         padding-top: 30px;}
         .card_page .card_wr .card_info .card_top img {
@@ -5113,7 +5062,7 @@ footer {
           .tab_content #tab_d .big-star{
             display: flex;
             margin-left: 15px;}
-          .tab_content #tab_d input, .review_popup input[type="checkbox"]{
+          .tab_content #tab_d input{
           display: none;}
         .tab_content #tab_d .item input + label{
           width: 17px;
@@ -5125,20 +5074,12 @@ footer {
           width: 21px;
           height: 21px;
           background: url('../img/icons/star_empty.svg') no-repeat;}
-          .review_popup input[type="checkbox"] + label{
-            cursor: pointer;
-          margin: 0 3px 0 0;
-          display: block;
-          width: 30px;
-          height: 30px;
-          background: url('../img/icons/star_empty.svg') no-repeat;
-          }
-         .tab_content #tab_d input + label:before, .review_popup input[type="checkbox"] + label:before{
+         .tab_content #tab_d input+ label:before{
           background: url('../img/icons/star_full.svg')no-repeat;
           font-size: 10px;}
-         .tab_content #tab_d input:checked + label, .review_popup input[type="checkbox"]:checked  + label{
+         .tab_content #tab_d input:checked + label{
           background: url('../img/icons/star_full.svg') no-repeat;  }
-         .tab_content #tab_d input:checked + label:before, .review_popup input[type="checkbox"]:checked  + label:before{
+         .tab_content #tab_d input:checked + label:before{
           display: block;
           width: 21px;
           height: 21px;
@@ -6580,7 +6521,7 @@ footer {
       .comparsion_page .comparsion_wr .top_comparsion .right_galery {
         padding-left: 20px; }
   .comparsion_page .comparsion_wr .swiper-slide {
-    width: auto!important; }
+    width: 94% !important; }
   .comparsion_page .comparsion_wr .fixed_product_comparsion {
     padding-right: 0; }
   .comparsion_page .right_side, .comparsion_page .top_comparsion .right_galery {
@@ -6649,9 +6590,6 @@ footer {
       font-size: 22px;
       padding-bottom: 5px; }
   .comparsion_page .comparsion_wr .swiper-pagination .swiper-pagination-bullet{
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
      display:  -webkit-inline-box;}
       .comparsion_page .comparsion_wr .swiper-button-next, .comparsion_page .comparsion_wr .swiper-button-prev{
         display: none;}
@@ -6761,12 +6699,7 @@ footer {
         .card_page .composition_collection .tabs .comparsion_page .swiper-slide .info .price{
           font-size: 20px;}
         .card_page .composition_collection .tabs .comparsion_page .swiper-slide .info .name{
-          font-size: 14px;} 
-    .comparsion_page .comparsion_wr .title-text{
-      height: 30px;
-      text-align: left;
-      margin: 15px 10px 17px;
-      padding: 0;}
+          font-size: 14px;}
           }
 
 @media screen and (max-width: 500px) {
@@ -6972,15 +6905,7 @@ footer {
     .card_page .card_wr .card_info .tab_content .tile_product .price span {
       font-size: 18px; }
   .card_page .composition_collection .fixed_composition_block .price_end {
-    float: none; } 
-  div.jq-selectbox:nth-child(2),.jq-selectbox__select-text:nth-child(2){
-        width: 100%!important;
-        display: block;
-        font-family: Circe-Regular;
-        font-size: 15px;
-        color: #d5433d;}
-      #scrollComplect .tab_links{
-        display: none;}}
+    float: none; } }
 
 @media screen and (max-width: 400px) {
   .city_popup .letters li {
@@ -7042,7 +6967,7 @@ footer {
   .complect_block {
     height: 60px; }
     .complect_block .left {
-      display: block; }}
+      display: block; } }
 @media screen and (max-width: 375px) {
   .main_breadcrumbs{
     display: none;}
@@ -7087,6 +7012,14 @@ footer {
         margin-top: 266px;}
       #scrollComplect{
         margin-top: 360px;}
+      #scrollComplect .tab_links{
+        display: none;}
+       div.jq-selectbox:nth-child(2),.jq-selectbox__select-text:nth-child(2){
+        width: 100%!important;
+        display: block;
+        font-family: Circe-Regular;
+        font-size: 15px;
+        color: #d5433d;}
         .card_page .card_wr .card_info .tab_content .characteristic .item .line{
         width: calc(100% - 224px);}
         

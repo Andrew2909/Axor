@@ -120,24 +120,19 @@ $(function() {
         $('.overlay').show();
         return false;
     });
-    $('.review').on('click', function () {
-        $('.review_popup').show();
-        $('.overlay').show();
-        return false;
-    });
 
     $('.popup .popup_wr .close').on('click', function () {
         $('.popup').hide();
         $('.overlay').hide();
         return false;
     });
-    
-    $('.inner_info').on('click', function () {
+
+
+    $('.tile_product .name').on('click', function () {
         $('.tile_product_popup').show();
         $('.overlay').show();
         return false;
     });
-
 
 
 
@@ -659,7 +654,12 @@ $('.svg_span_tab svg').click(function(event) {
 });
 
 
-$('.swiper-zoom-container').on('click', function () {
+
+
+
+
+
+$('.swiper-zoom-container > img').on('click', function () {
  $('.cl_if_js').addClass('slider_modal_card_tile_1');
  $('.cl_if_js2').addClass('slider_modal_card_tile_2');
  $('.card_modal_slider_img').show();

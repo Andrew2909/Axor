@@ -242,8 +242,8 @@
 }
 .jq-selectbox__dropdown {
 	box-sizing: border-box;
-	width: 150px;
-	margin: 0;
+	width: 100%;
+	margin: 2px 0 0;
 	padding: 0;
 	border: 1px solid #CCC;
 	border-radius: 4px;
@@ -285,6 +285,7 @@
 	color: #FFF;
 }
 .jq-selectbox li:hover {
+	background-color: #D84137;
 	color: #FFF;
 }
 .jq-selectbox li.disabled {
